@@ -3,7 +3,7 @@
  */
 import {connect} from 'react-redux'
 import * as TodoActions from '../../../action/TodoActions'
-import Link from '../present/Link'
+import Link from './Link'
 
 const mapStateToProps = (state, ownProps) => {
   return {

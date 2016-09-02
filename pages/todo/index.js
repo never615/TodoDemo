@@ -1,8 +1,8 @@
 import React, { PropTypes } from 'react';
-import AddTodo from '../../core/components/TodoLayout/containers/AddTodo'
-import VisibleTodoList from '../../core/components/TodoLayout/containers/VisibleTodoList'
-import FilterTodo from '../../core/components/TodoLayout/present/FilterTodo'
-import Layout from '../../core/components/base/Layout';
+import AddTodo from '../../core/component/TodoLayout/AddTodo'
+import VisibleTodoList from '../../core/component/TodoLayout/todolist/TodoListContainer'
+import FilterTodo from '../../core/component/TodoLayout/filter/Filter'
+import Layout from '../../core/component/base/Layout';
 import s from './styles.css';
 
 

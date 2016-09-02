@@ -3,7 +3,7 @@
  */
 import {connect} from 'react-redux'
 import * as TodoAction from '../../../action/TodoActions'
-import TodoList from '../present/TodoList'
+import TodoList from './TodoList'
 import {FilterConstants} from '../../../constants/FilterConstants'
 
 const  getVisibleTodos=(todos,filter)=>{

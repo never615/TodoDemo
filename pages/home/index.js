@@ -9,7 +9,7 @@
  */
 
 import React, { PropTypes } from 'react';
-import Layout from '../../core/components/base/Layout';
+import Layout from '../../core/component/app/Layout';
 import s from './styles.css';
 import { title, html } from './index.md';
 

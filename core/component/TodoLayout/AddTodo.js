@@ -2,9 +2,8 @@
  * Created by never615 on 9/1/16.
  */
 import React from 'react'
-import {connect} from 'react-redux'
-import * as TodoAction from '../../../action/TodoActions'
-import store from  '../../../store'
+import * as TodoAction from '../../action/TodoActions'
+import store from '../../store'
 
 export default class AddTodo extends React.Component {
   constructor(props) {
@@ -21,7 +20,7 @@ export default class AddTodo extends React.Component {
           if (!input.value.trim()){
             return;
           }
-          store.dispatch(TodoAction.addTodo(input.value))
+          store.dispatch(TodoAction.addTodo(input.value));
           input.value=''
         }
         }>

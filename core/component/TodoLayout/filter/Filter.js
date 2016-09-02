@@ -2,7 +2,7 @@
  * Created by never615 on 8/31/16.
  */
 import React from 'react';
-import FilterLink from '../containers/FilterLink';
+import FilterLink from './FilterLinkContainer';
 
 function FilterTodo() {
   return (
